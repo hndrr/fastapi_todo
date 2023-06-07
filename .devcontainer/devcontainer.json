@@ -37,7 +37,12 @@
   // "remoteUser": "devcontainer"
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python", "charliermarsh.ruff"],
+      "extensions": [
+		"ms-python.python",
+		"charliermarsh.ruff",
+		"MS-CEINTL.vscode-language-pack-ja",
+		"ms-python.vscode-pylance"
+	],
       "settings": {
         "editor.formatOnSave": true,
         "[python]": {
