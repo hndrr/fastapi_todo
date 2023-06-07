@@ -1,6 +1,6 @@
 {
-  "name": "Python-dev Template",
-  "dockerComposeFile": ["../docker-compose.yaml"],
+  "name": "Python Project",
+  "dockerComposeFile": ["../docker-compose.yml"],
   "service": "app",
   "workspaceFolder": "/api",
   "customizations": {
