@@ -39,9 +39,9 @@
     "vscode": {
       "extensions": [
 		"ms-python.python",
+    "ms-python.vscode-pylance",
 		"charliermarsh.ruff",
 		"MS-CEINTL.vscode-language-pack-ja",
-		"ms-python.vscode-pylance"
 	],
       "settings": {
         "editor.formatOnSave": true,
@@ -63,6 +63,7 @@
         ],
         "python.linting.mypyEnabled": true,
         "python.linting.enabled": true,
+        "python.linting.lintOnSave":true,
         "python.testing.pytestPath": "/usr/local/bin/pytest",
         "python.testing.pytest": [
           "--config=${containerWorkspaceFolder}/pyproject.toml"
